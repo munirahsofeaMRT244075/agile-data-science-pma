@@ -1,7 +1,7 @@
 import pytest
 import pandas as pd
 
-DATA_URL = "https://raw.githubusercontent.com/munirahsofeaMRT244075/agile-data-science-pma/main/data/telco.csv"
+DATA_URL = "https://raw.githubusercontent.com/munirahsofeaMRT244075/agile-data-science-pma/refs/heads/main/data./telco.csv"
 
 def load_data():
     return pd.read_csv(DATA_URL)
